@@ -241,3 +241,52 @@
 # #title
 # str1 = "He's name is Dan. Dan is an honest man."
 # print(str1.title())
+
+# # if-else-statement
+# applePrice = 200
+# budget = 200
+# if (applePrice <= budget):
+#     print("Alexa, add 1 kg Apples to the cart.")
+# else:
+#     print("Alexa, do not add Apples to the cart.")
+    
+
+# elif statements
+# num = int(input("Enter any number: "))
+# if (num < 0):
+#     print(num, "is negative.")
+# elif (num == 0):
+#     print("Number is Zero.")
+# else:
+#     print(num, "is positive.")
+
+# #nested if-elif-else statements
+# num = int(input("Enter any number: "))
+# if(num<0):
+#     print(num, " is negative.")
+# elif(num > 0):
+#     if(num <= 10):
+#         print(num, "is in between 1-10.")
+#     elif(num <= 20):
+#         print(num, "is in between 11-20.")
+#     else:
+#         print(num, "is greater than 20.")
+# else:
+#     print("Number is zero")
+
+# #Exercise 2
+# import time
+# times = time.strftime('%H:%M:%S')
+# print("The time is",times)
+# timestamp = int(time.strftime('%H')) 
+
+# if(timestamp >= 6 and timestamp <= 12):
+#     print("Good Morning")
+# elif(timestamp >=12 and timestamp <= 16):
+#     print("Good Afternoon")
+# elif(timestamp >=16 and timestamp <= 18):
+#     print("Good Evening")
+# else:
+#     print("Good Night")
+    
+    
