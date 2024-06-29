@@ -328,3 +328,44 @@
 # for k in range(4,9,2):
 #     print(k)
 
+# # while loop
+# count = 5
+# while (count > 0):
+#   print(count)
+#   count = count - 1
+  
+# # else with while loop
+# x = 5
+# while (x > 0):
+#     print(x)
+#     x = x - 1
+# else:
+#     print('counter is 0')
+    
+# # do-while loop
+# while True:
+#   number = int(input("Enter a positive number: "))
+#   print(number)
+#   if not number > 0:
+#     break
+
+# # break and continue
+
+# for i in range(1,101,1):
+#     print(i ,end=" ")
+#     if(i==50):
+#         break
+#     else:
+#         print("Mississippi")
+# print("Thank you")
+
+# for i in range(0,100):
+#     if (i%2!=0):
+#         continue
+#     print(i)
+
+# for i in [2,3,4,6,8,0]:
+#     if (i%2!=0):
+#         continue
+#     print(i)
+
