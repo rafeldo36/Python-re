@@ -290,3 +290,41 @@
 #     print("Good Night")
     
     
+# #match-case statements
+# x = int(input("Enter x: "))
+# # x is the variable to match
+# match x:
+#     # if x is 0
+#     case 0:
+#         print("x is zero")
+#     # case with if-condition
+#     case 4 if x % 2 == 0:
+#         print("x % 2 == 0 and case is 4")
+#     # Empty case with if-condition
+#     case _ if x < 10:
+#         print("x is < 10")
+#     # default case(will only be matched if the above cases were not matched)
+#     # so it is basically just an else:
+#     case _:
+#         print(x)
+        
+# # for loops
+
+# #iterating over a string
+# name = 'Rafeldo'
+# for i in name:
+#     print(i, end=", ")
+    
+# # iterating over a list
+# colors = ["Red", "Green", "Blue", "Yellow"]
+# for x in colors:
+#     print(x)
+    
+# #range 
+# for k in range(5):
+#     print(k)
+# for k in range(4,9):
+#     print(k)
+# for k in range(4,9,2):
+#     print(k)
+
