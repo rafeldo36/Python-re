@@ -105,3 +105,139 @@
 # for character in name:
 #     print(character)
 
+# #String Slicing & Operations on String
+# name = "Rafey"
+# print(name[0:3]) #Raf
+# print(name[2:5]) #fey
+# print(name[0:5]) #Rafey
+# print(name[0:]) #Rafey
+# print(name[:5]) #Rafey
+# print(name[:]) #Rafey
+# print(name[-1:]) #Rafey
+
+# #length of a string 
+# fruit = "Mango"
+# len1 = len(fruit)
+# print("Mango is a", len1, "letter word.")
+
+# #string as an array
+# name = "Rafey"
+# print(name[0])
+# print(name[1])
+
+# #loop through a string
+# alphabets = "ABCDE"
+# for i in alphabets:
+#     print(i)
+
+# #string methods
+
+# #upper  
+# str1 = "AbcDEfghIJ"
+# print(str1.upper())
+
+# #lower
+# str1 = "AbcDEfghIJ"
+# print(str1.lower())
+
+# #strip
+# str2 = " Silver Spoon "
+# print(str2.strip())
+
+# #rstrip
+# str3 = "Hello !!!"
+# print(str3.rstrip("!"))
+
+# #replace
+# str2 = "Silver Spoon"
+# print(str2.replace("Sp", "M"))
+
+# #split
+# str2 = "Silver Spoon"
+# print(str2.split(" "))      #Splits the string at the whitespace " ".
+
+# #capitalize
+# str1 = "hello"
+# capStr1 = str1.capitalize()
+# print(capStr1)
+# str2 = "hello WorlD"
+# capStr2 = str2.capitalize()
+# print(capStr2)
+
+# #center
+# str1 = "Welcome to the Console!!!"
+# print(str1.center(50))
+
+# str1 = "Welcome to the Console!!!"
+# print(str1.center(50, "."))
+
+# #count
+# str2 = "Abracadabra"
+# countStr = str2.count("a")
+# print(countStr)
+
+# # startswith
+# str1 = "Python is a Interpreted Language" 
+# print(str1.startswith("Python"))
+
+# #endswith
+# str1 = "Welcome to the Console !!!"
+# print(str1.endswith("!!!"))
+
+# str1 = "Welcome to the Console !!!"
+# print(str1.endswith("to", 4, 10))
+
+# #find
+# str1 = "He's name is Dan. He is an honest man."
+# print(str1.find("is"))
+
+# str1 = "He's name is Dan. He is an honest man."
+# print(str1.find("Daniel"))
+
+# #index
+# str1 = "He's name is Dan. Dan is an honest man."
+# print(str1.index("Dan"))
+
+# # str1 = "He's name is Dan. Dan is an honest man."
+# # print(str1.index("Daniel"))
+
+# #isalnum
+# str1 = "WelcomeToTheConsole"
+# print(str1.isalnum())
+
+# #isalpha
+# str1 = "Welcome"
+# print(str1.isalpha())
+
+# # islower
+# str1 = "hello world"
+# print(str1.islower())
+
+# #isprintable
+# str1 = "hello world"
+# print(str1.isprintable())
+
+# #isspace
+# str1 = "        "       #using Spacebar
+# print(str1.isspace())
+# str2 = "        "       #using Tab
+# print(str2.isspace())
+
+# #istitle
+# str1 = "World Health Organization" 
+# print(str1.istitle())
+
+# str2 = "To kill a Mocking bird"
+# print(str2.istitle())
+
+# # isupper
+# str1 = "WORLD HEALTH ORGANIZATION" 
+# print(str1.isupper())
+
+# #swapcase
+# str1 = "Python is a Interpreted Language" 
+# print(str1.swapcase())
+
+# #title
+# str1 = "He's name is Dan. Dan is an honest man."
+# print(str1.title())
