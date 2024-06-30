@@ -593,14 +593,26 @@
 #     return n**2
 # print(square.__doc__)
 
-# Recursion 
-def factorial(num): 
-    if (num == 1 or num == 0):
-        return 1
-    else:
-        return (num * factorial(num - 1)) 
+# # Recursion 
+# def factorial(num): 
+#     if (num == 1 or num == 0):
+#         return 1
+#     else:
+#         return (num * factorial(num - 1)) 
   
-# Driver Code 
-num = 7; 
-print("Number: ",num)
-print("Factorial: ",factorial(num))
+# # Driver Code 
+# num = 7; 
+# print("Number: ",num)
+# print("Factorial: ",factorial(num))
+
+# # Sets
+# info = {"Carla", 19, False, 5.9, 19}
+# print(info)
+
+# sets={}
+# print(type(sets)) #output: dict
+
+# # accesing set items using loop
+# info = {"Carla", 19, False, 5.9}
+# for item in info:
+#     print(item)
