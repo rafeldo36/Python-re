@@ -727,3 +727,22 @@
 #     print("Carla is present.")
 # else:
 #     print("Carla is absent.")
+
+# # Python Dictionaries
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info)
+
+# print(info['name']) #accesing single values
+# print(info.get('eligible'))
+
+# # accesing multival
+# print(info.values())
+
+# # accessing keys
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.keys())
+
+# # accessing key-value pairs
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.items())
+
