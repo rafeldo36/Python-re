@@ -519,14 +519,15 @@
 # colors.insert(2, "red")
 # print(colors)
 
-# extend()
-#add a list to a list
-colors = ["voilet", "indigo", "blue"]
-rainbow = ["green", "yellow", "orange", "red"]
-colors.extend(rainbow)
-print(colors)
+# # extend()
+# #add a list to a list
+# colors = ["violet", "indigo", "blue"]
+# rainbow = ["green", "yellow", "orange", "red"]
+# colors.extend(rainbow)
+# print(colors)
 
-# concatenating two list
-colors = ["voilet", "indigo", "blue", "green"]
-colors2 = ["yellow", "orange", "red"]
-print(colors + colors2)
+# # concatenating two list
+# colors = ["violet", "indigo", "blue", "green"]
+# colors2 = ["yellow", "orange", "red"]
+# print(colors + colors2)
+
