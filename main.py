@@ -792,12 +792,19 @@
 # except ValueError:
 #     print("Number entered is not an integer.")
 
-# finally clause
-try:
-    num = int(input("Enter an integer: "))
-except ValueError:
-    print("Number entered is not an integer.")
-else:
-    print("Integer Accepted.")
-finally:
-    print("This block is always executed.")
+# # finally clause
+# try:
+#     num = int(input("Enter an integer: "))
+# except ValueError:
+#     print("Number entered is not an integer.")
+# else:
+#     print("Integer Accepted.")
+# finally:
+#     print("This block is always executed.")
+
+# # Custom Errors
+# salary = int(input("Enter salary amount: "))
+# if not 2000 < salary < 5000:
+#     raise ValueError("Not a valid salary")
+
+    
