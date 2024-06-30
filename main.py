@@ -779,9 +779,15 @@
 # del info
 # print(info)
 
-# else in loop
-for x in range(5):
-    print ("iteration no {} in for loop".format(x+1))
-else:
-    print ("else block in loop")
-print ("Out of loop")
+# # else in loop
+# for x in range(5):
+#     print ("iteration no {} in for loop".format(x+1))
+# else:
+#     print ("else block in loop")
+# print ("Out of loop")
+
+# # Exception Handling
+# try:
+#     num = int(input("Enter an integer: "))
+# except ValueError:
+#     print("Number entered is not an integer.")
