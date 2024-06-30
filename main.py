@@ -407,8 +407,126 @@
 
 # name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
-# return Statement
-def name(fname, mname, lname):
-    return "Hello, " + fname + " " + mname + " " + lname
+# # return Statement
+# def name(fname, mname, lname):
+#     return "Hello, " + fname + " " + mname + " " + lname
 
-print(name("James", "Buchanan", "Barnes"))
+# print(name("James", "Buchanan", "Barnes"))
+
+# # Python Lists
+# lst1 = [1,2,2,3,5,4,6]
+# lst2 = ["Red", "Green", "Blue"]
+# print(lst1)
+# print(lst2)
+
+# details = ["Abhijeet", 18, "FYBScIT", 9.8]
+# print(details)
+
+# # list index 
+# colors = ["Red", "Green", "Blue", "Yellow", "Green"]
+# #          [0]      [1]     [2]      [3]      [4]
+# print(colors[2])
+# print(colors[4])
+# print(colors[0])
+
+# # negative indexing
+# colors = ["Red", "Green", "Blue", "Yellow", "Green"]
+# #          [-5]    [-4]    [-3]     [-2]      [-1]
+# print(colors[-1])
+# print(colors[-3])
+# print(colors[-5])
+
+# # Check whether an item in present in the list?
+# colors = ["Red", "Green", "Blue", "Yellow", "Green"]
+# if "Yellow" in colors:
+#     print("Yellow is present.")
+# else:
+#     print("Yellow is absent.")
+    
+#     # range of index
+# animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
+# print(animals[3:7])	#using positive indexes
+# print(animals[-7:-2])	#using negative indexes'
+
+# List comprehension
+
+# # Accepts items with the small letter “o” in the new list
+# names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+# namesWith_O = [item for item in names if "o" in item]
+# print(namesWith_O)
+
+# #  Accepts items which have more than 4 letters
+# names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+# nameshavingMax4 = [item for item in names if (len(item) > 4)]
+# print(nameshavingMax4)
+
+# List Methods
+
+# # list.sort()
+# colors = ["violet", "indigo", "blue", "green"]
+# colors.sort()
+# print(colors)
+
+# num = [4,2,5,3,6,1,2,1,2,8,9,7]
+# num.sort()
+# print(num)
+
+# # reverse order
+# colors = ["voilet", "indigo", "blue", "green"]
+# colors.sort(reverse=True)
+# print(colors)
+
+# num = [4,2,5,3,6,1,2,1,2,8,9,7]
+# num.sort(reverse=True)
+# print(num)
+
+# # reverse()
+# colors = ["violet", "indigo", "blue", "green"]
+# colors.reverse()
+# print(colors)
+
+# num = [4,2,5,3,6,1,2,1,2,8,9,7]
+# num.reverse()
+# print(num)
+
+# # index()
+# colors = ["violet", "green", "indigo", "blue", "green"]
+# print(colors.index("green"))
+
+# num = [4,2,5,3,6,1,2,1,3,2,8,9,7]
+# print(num.index(3))
+
+# # count()
+# colors = ["violet", "green", "indigo", "blue", "green"]
+# print(colors.count("green"))
+
+# num = [4,2,5,3,6,1,2,1,3,2,8,9,7]
+# print(num.count(2))
+
+# # copy()
+# colors = ["violet", "green", "indigo", "blue"]
+# newlist = colors.copy()
+# print(colors)
+# print(newlist)
+
+# # append()
+# colors = ["violet", "green", "indigo", "blue"]
+# colors.append("red")
+# print(colors)
+
+# # insert()
+# colors = ["violet", "green", "indigo", "blue"]
+# colors.insert(2, "red")
+# print(colors)
+
+# extend()
+#add a list to a list
+colors = ["voilet", "indigo", "blue"]
+rainbow = ["green", "yellow", "orange", "red"]
+colors.extend(rainbow)
+print(colors)
+
+# concatenating two list
+colors = ["voilet", "indigo", "blue", "green"]
+colors2 = ["yellow", "orange", "red"]
+print(colors + colors2)
