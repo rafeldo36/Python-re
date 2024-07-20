@@ -807,4 +807,84 @@
 # if not 2000 < salary < 5000:
 #     raise ValueError("Not a valid salary")
 
+# # short hand if else
+# a = 2
+# b = 330
+# print("A") if a > b else print("B")
+
+# a = 330
+# b = 330
+# print("A") if a > b else print("=") if a == b else print("B")
+
+# # Enumerate
+# # Loop over a list and print the index and value of each element
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits):
+#     print(index, fruit)
+
+# # Loop over a list and print the index (starting at 1) and value of each element
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits, start=1):
+#     print(index, fruit)
+
+# # VENV 
+# import math
+
+# result = math.sqrt(9)
+# print(result)  # Output: 3.0
+
+# print(dir(math))
+
+# # if "__name__ == "__main__" in Python
+# import rafey
+
+# rafey.main()
+
+# import os 
+# # Open the file in read-only mode
+# f = os.open("sample.txt", os.O_RDONLY)
+# # Read the contents of the file
+# contents = os.read(f, 1024)
+# # Close the file
+# os.close(f)
+
+# # Open the file in write-only mode
+# f = os.open("sample.txt", os.O_WRONLY)
+# # Write to the file
+# os.write(f, b"Hello, world!")
+# # Close the file
+# os.close(f)
+
+# import os
+# # Get a list of the files in the current directory
+# files = os.listdir(".")
+# print(files)  
+
+# import os
+
+# # Create a new directory
+# os.mkdir("newdir")
+
+# import os
+
+# # Run the "ls" command and get the output as a file-like object
+# f = os.popen("dir")
+
+# # Read the contents of the output
+# output = f.read()
+# print(output)  # Output: ['myfile.txt', 'otherfile.txt']
+
+# # Close the file-like object
+# f.close()
+
+# import os 
+
+# if(not os.path.exists("data")):
+#     os.mkdir("data")
+    
+# for i in range (0, 100):
+#     os.mkdir(f"data/Day{i+1}")
+
+# for i in range(0, 100):
+#     os.rename(f"data/Day{i+1}", f"data/Tutorial {i+1}")
     
