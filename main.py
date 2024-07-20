@@ -888,3 +888,50 @@
 # for i in range(0, 100):
 #     os.rename(f"data/Day{i+1}", f"data/Tutorial {i+1}")
     
+# # global and local
+# x = 10 # global variable
+
+# def my_function():
+#   y = 5 # local variable
+#   print(y)
+
+# my_function()
+# print(x)
+# print(y) # this will cause an error because y is a local variable and is not accessible outside of the function
+
+
+# f = open('sample.txt', 'r')
+# contents = f.read()
+# print(contents)
+
+# f = open('sample.txt',"w")
+# overwrite = f.write('Hi world')
+
+# f = open('myfile.txt', 'a')
+# overwrite = f.write('Hello, world!')
+
+# print(overwrite)
+
+# with open('myfile.txt', 'r') as f:
+#     contents = f.read()
+#     print(contents)
+
+# f = open("myfile.txt","r")
+# while True:
+#     line = f.readline()
+#     if not line:
+#         break
+#     print(line)
+
+# f = open('myfile.txt', 'w')
+# lines = ['line 1\n', 'line 2\n', 'line 3\n']
+# f.writelines(lines)
+# f.close()
+
+f = open('myfile.txt','w')
+lines = ['line 1', 'line 2', 'line 3']
+for line in lines:
+    f.write(line + '\n')
+f.close()
+
+    
