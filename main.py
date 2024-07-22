@@ -1038,9 +1038,20 @@
 
 # # Python Class and Objects
 # class Details:
-#     name = "Rohan"
-#     age = 20
+#     name = "Rafey"
+#     age = 23
 
 # obj1 = Details()
 # print(obj1.name)
 # print(obj1.age)
+
+# # self parameter
+# class Details:
+#     name = "Rafey"
+#     age = 23
+
+#     def desc(self):
+#         print("My name is", self.name, "and I'm", self.age, "years old.")
+
+# obj1 = Details()
+# obj1.desc()
