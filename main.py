@@ -979,3 +979,37 @@
 # # Lambda function to calculate the product of two numbers,
 # # with additional print statement
 # lambda x, y: print(f'{x} * {y} = {x * y}')
+
+# # Map, Filter and Reduce
+
+# # map
+# # List of numbers
+# numbers = [1, 2, 3, 4, 5]
+
+# # Double each number using the map function
+# doubled = map(lambda x: x * 2, numbers)
+
+# # Print the doubled numbers
+# print(list(doubled))
+
+# # filter
+# # List of numbers
+# numbers = [1,2,3,4,5]
+
+# # Get only the even numbers using the filter function
+# evens = filter(lambda x: x % 2 == 0, numbers)
+
+# #Print the even numbers
+# print(list(evens))
+
+# # reduce
+# from functools import reduce
+
+# # List of numbers
+# numbers = [1, 2, 3, 4, 5]
+
+# # Calculate the sum of the numbers using the reduce function
+# sum = reduce(lambda x, y: x + y, numbers)
+
+# # Print the sum
+# print(sum)
