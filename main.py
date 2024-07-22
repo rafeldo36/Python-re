@@ -1055,3 +1055,20 @@
 
 # obj1 = Details()
 # obj1.desc()
+
+# # Constructors
+
+# # parameterized constructor
+# class Details:
+#     def __init__(self, animal, group):
+#         self.animal = animal
+#         self.group = group
+
+# obj1 = Details("Crab", "Crustaceans")
+# print(obj1.animal, "belongs to the", obj1.group, "group.")
+
+# # default constructor
+# class Details:
+#   def __init__(self):
+#     print("Crab belongs to Crustaceans group")
+# obj1=Details()
